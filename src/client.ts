@@ -15,8 +15,6 @@ client.on('data', function(data) { //when we get data
 client.on('close', function() { //when connection closed
     
 });
-
-
 var HOST = ip.address();
 var PORT = 3000;
 
